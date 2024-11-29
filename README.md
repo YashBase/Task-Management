@@ -63,13 +63,56 @@ Follow the steps below to set up and run the project locally.
    SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = '<your-client-secret>'.
 
 ## Run migrations:
-   ```bash
-   python manage.py migrate
+  ```bash
+      python manage.py migrate
+  ```
 
 ## Run the development server:
    ```bash
    python manage.py runserver
+   ```
+## Access the app:
+- Open **http://localhost:8000** in your browser.
 
-## Google OAuth Setup:
+## Google OAuth Flow
 
+- When users visit the app, they can log in using their Google account.
+- After successful authentication, users will be redirected to their task dashboard.
 
+## Admin Panel
+
+1. **Create a superuser:**:
+   ```bash
+   python manage.py createsuperuser
+   
+2. **Admin features:**:
+
+- Access the Django admin panel at **http://localhost:8000/admin/**.
+- Admin can manage the Google OAuth keys, invite new users, and view all tasks.
+
+  
+# Task Management
+  Users can:
+  - **Create Tasks:** Title and description required.
+  - **Edit Tasks:** Modify title or description.
+  - **Delete Tasks:** Remove tasks from the list.
+
+# Admin Features
+  - **Manage OAuth Keys:** Admin can update Google OAuth credentials.
+  - **Invite Users:** Admin can invite users by email, who will receive a registration link.
+
+# Screenshots
+1. **Login Screen:**
+
+2. **Task Dashboard:**
+
+3. **Admin Panel:**
+
+# Contributing
+If you want to contribute to the development of this project, feel free to fork the repository and create pull requests. Please follow the steps below for contributing:
+
+   1. Fork the repository.
+   2. Create a feature branch ```bash git checkout -b feature-name ```.
+   3. Commit your changes ```bash git commit -m 'Add new feature' ```.
+   4. Push to the branch ```bash git push origin feature-name.
+   5. Open a pull request.
