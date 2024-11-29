@@ -2,7 +2,7 @@
 
 A simple web application built with **Django** and **Google OAuth** for user authentication. The app allows users to manage personal tasks after logging in using their Google accounts. Admin users can manage OAuth credentials and invite new users.
 
-![Task Management App]   ![Login](https://github.com/user-attachments/assets/6766fc39-05c3-47a2-a2bb-021589a59329)
+  ![Login](https://github.com/user-attachments/assets/6766fc39-05c3-47a2-a2bb-021589a59329)
 
 
 ## Features
