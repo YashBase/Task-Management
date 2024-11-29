@@ -2,7 +2,8 @@
 
 A simple web application built with **Django** and **Google OAuth** for user authentication. The app allows users to manage personal tasks after logging in using their Google accounts. Admin users can manage OAuth credentials and invite new users.
 
-![Task Management App](https://via.placeholder.com/800x400?text=Task+Management+App)  
+![Task Management App]   ![Login](https://github.com/user-attachments/assets/6766fc39-05c3-47a2-a2bb-021589a59329)
+
 
 ## Features
 
@@ -103,10 +104,13 @@ Follow the steps below to set up and run the project locally.
 
 # Screenshots
 1. **Login Screen:**
+![Login](https://github.com/user-attachments/assets/6d877798-fe1a-41df-81dd-b752c481d87d)
 
 2. **Task Dashboard:**
+![dashboard](https://github.com/user-attachments/assets/bd08c521-62e2-419d-8270-6454987a12e7)
 
 3. **Admin Panel:**
+![Admin](https://github.com/user-attachments/assets/934ae279-6e42-46a5-858f-9fd921d57ace)
 
 # Contributing
 If you want to contribute to the development of this project, feel free to fork the repository and create pull requests. Please follow the steps below for contributing:
@@ -114,5 +118,5 @@ If you want to contribute to the development of this project, feel free to fork 
    1. Fork the repository.
    2. Create a feature branch ```bash git checkout -b feature-name ```.
    3. Commit your changes ```bash git commit -m 'Add new feature' ```.
-   4. Push to the branch ```bash git push origin feature-name.
+   4. Push to the branch ```bash git push origin feature-name```.
    5. Open a pull request.
